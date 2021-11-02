@@ -6,9 +6,23 @@
             <button type="textnote" label="Nota scritta" />
         </row>
         <row>
-            <button type="tag" label="Panchina" />
+            <button type="page" label="Panchina" targetlayout="bench" />
             <button type="tag" label="Fontana" />
             <button type="tag" label="Cestino" />
+        </row>
+    </layout>
+    <layout name="bench">
+        <row>
+            <button type="tag" label="Panchina in legno con schienale" />
+            <button type="tag" label="Panchina in legno senza schienale" />
+        </row>
+        <row>
+            <button type="tag" label="Panchina in metallo con schienale" />
+            <button type="tag" label="Panchina in metallo senza schienale" />
+        </row>
+        <row>
+            <button type="tag" label="Panchina in roccia con schienale" />
+            <button type="tag" label="Panchina in roccia senza schienale" />
         </row>
     </layout>
 </layouts>
