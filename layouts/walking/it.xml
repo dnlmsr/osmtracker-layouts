@@ -1,8 +1,14 @@
 <layouts>
     <layout name="root">
         <row>
-            <button type="tag" label="Panchina"/>
-            <button type="tag" label="Fontana"/>
-            <button type="tag" label="Cestino"/>
-        </row></layout>
+            <button type="voicerec" label="Registrazione vocale" />
+            <button type="picture" label="Fotocamera" />
+            <button type="textnote" label="Nota scritta" />
+        </row>
+        <row>
+            <button type="tag" label="Panchina" />
+            <button type="tag" label="Fontana" />
+            <button type="tag" label="Cestino" />
+        </row>
+    </layout>
 </layouts>
